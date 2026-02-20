@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sunday Bite</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f6fa;
+}
+
+/* Container */
+.hero{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+    background:white;
+    padding:50px;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* Left Content */
+.content{
+    max-width:500px;
+}
+
+.logo{
+    width:35px;
+    height:35px;
+    background:#e63946;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:48px;
+    color:#222;
+    line-height:1.2;
+}
+
+p{
+    margin:20px 0;
+    color:#666;
+    font-size:18px;
+}
+
+/* Button */
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    background:#e63946;
+    color:white;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#c92f3a;
+}
+
+/* Right Image */
+.food-img img{
+    width:380px;
+    border-radius:50%;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .food-img img{
+        margin-top:30px;
+        width:280px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="content">
+        <div class="logo"></div>
+        <h1>The<br>Foods list</h1>
+        <p>Delicious food for every mood</p>
+        <a href="india.html" class="btn">Indian Menu</a>
+    </div>
+
+
+    <div class="food-img">
+        <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Food">
+    </div>
+
+</section>
+
+</body>
+</html>
