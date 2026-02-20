@@ -35,7 +35,7 @@ The website includes attractive UI design, animated background, hover effects, a
 ```
 Food-Menu-Website/
 │── index.html
-│── README.md
+│── india.html
 ```
 
 ---
